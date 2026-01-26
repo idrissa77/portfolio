@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Data Analyst Professionnel</title>
+    <meta name="description"
+        content="Portfolio professionnel spécialisé en analyse de données et visualisation, inspiré par un design moderne et épuré.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cursor-dot-outline"></div>
+    <div class="cursor-dot"></div>
+
+    <header id="header">
+        <nav class="container">
+
+            <ul class="nav-links">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projets</a></li>
+
+            </ul>
+            <a href="#contact" class="btn-primary desktop-only">Contact</a>
+            <div class="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <span class="greeting" data-reveal>Bonjour, je suis</span>
+                    <h1 data-reveal>Idrissa TRAORE</h1>
+                    <p class="role" data-reveal>Data Analyst</p>
+                    <p class="description" data-reveal>Je transforme des données complexes en insights actionnables afin
+                        d'éclairer la prise de décision des entreprises.</p>
+                    <div class="hero-btns" data-reveal>
+                        <a href="#about" class="btn-primary">Découvrir mon parcours</a>
+                        <a href="#projects" class="btn-outline">Voir mes projets</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper" data-reveal>
+                    <div class="blob-bg"></div>
+                    <div class="blob-bg secondary"></div>
+                    <img src="assets/profile_v2.jpg" alt="Profil Data Analyst" class="hero-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Quote Section -->
+        <section class="quote-section bg-light-section">
+            <div class="container">
+                <div class="quote-content" data-reveal>
+                    <p>J'apprécie le processus de résolution de problèmes avec une solution propre et évolutive. J'ai
+                        une véritable passion pour l'analyse de données.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services bg-light-section">
+            <div class="container services-inner">
+                <div class="services-header" data-reveal>
+                    <span class="sub-title">Services</span>
+                    <h2>Ce que je peux apporter à votre entreprise</h2>
+                    <p>De l'extraction de données brutes à la visualisation stratégique, je couvre l'ensemble du cycle
+                        de vie de la donnée.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card" data-reveal>
+                        <div class="icon-box purple"><i class="fa-solid fa-chart-line"></i></div>
+                        <h3>Data Visualisation</h3>
+                        <p>Création de dashboards interactifs et intuitifs pour piloter votre activité.</p>
+                    </div>
+                    <div class="service-card" data-reveal>
+                        <div class="icon-box orange"><i class="fa-solid fa-brain"></i></div>
+                        <h3>Advanced Analytics</h3>
+                        <p>Modélisation prédictive et analyse statistique pour anticiper les tendances.</p>
+                    </div>
+                    <div class="service-card" data-reveal>
+                        <div class="icon-box red"><i class="fa-solid fa-database"></i></div>
+                        <h3>Data Engineering</h3>
+                        <p>Création et optimisation de pipelines ETL.</p>
+                    </div>
+                    <div class="service-card" data-reveal>
+                        <div class="icon-box green"><i class="fa-solid fa-bullseye"></i></div>
+                        <h3>Stratégie Data</h3>
+                        <p>Accompagnement dans la définition de KPIs et d'une roadmap analytique.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="about" class="skills-oppa">
+            <div class="container">
+                <div class="skills-header" data-reveal>
+                    <span class="sub-title">Expertise</span>
+                </div>
+                <!-- Diplômes Section -->
+                <div class="diplomas-section" data-reveal>
+                    <h3 class="section-subtitle">Formation</h3>
+                    <div class="diplomas-grid">
+                        <div class="diploma-card" data-reveal>
+                            <div class="diploma-icon">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+                            <div class="diploma-content">
+                                <h4>Master en Big Data & Business Intelligence</h4>
+                                <p class="diploma-school">Ecole Nationale des Sciences Appliquées de Kenitra</p>
+                                <p class="diploma-year">2023</p>
+                            </div>
+                        </div>
+                        <div class="diploma-card" data-reveal>
+                            <div class="diploma-icon">
+                                <i class="fa-solid fa-user-graduate"></i>
+                            </div>
+                            <div class="diploma-content">
+                                <h4>Licence Sciences Mathématiques et Applications</h4>
+                                <p class="diploma-school">Faculté des Sciences de Tétouan</p>
+                                <p class="diploma-year">2021</p>
+                            </div>
+                        </div>
+                        <div class="diploma-card" data-reveal>
+                            <div class="diploma-icon">
+                                <i class="fa-solid fa-award"></i>
+                            </div>
+                            <div class="diploma-content">
+                                <h4>Certifications</h4>
+                                <p class="diploma-school">
+                                    • Réalisez des dashboards avec Power BI (OpenClassrooms)<br>
+                                    • Excel : Astuces et techniques (LinkedIn)<br>
+                                    • SQL avancé pour les data scientists (LinkedIn)<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Compétences Techniques -->
+                <h3 class="section-subtitle" data-reveal style="margin-top: 4rem;">Compétences Techniques</h3>
+                <div class="skills-grid-oppa">
+                    <div class="skill-group" data-reveal>
+                        <div class="skill-info"><span>Power BI</span><span>95%</span></div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-group" data-reveal>
+                        <div class="skill-info"><span>Excel</span><span>80%</span></div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-group" data-reveal>
+                        <div class="skill-info"><span>SQL</span><span>85%</span></div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-group" data-reveal>
+                        <div class="skill-info"><span>Python</span><span>95%</span></div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Langues -->
+                <h3 class="section-subtitle" data-reveal style="margin-top: 4rem;">Langues</h3>
+                <div class="tech-tags" data-reveal>
+                    <span>Français : Courant</span>
+                    <span>Anglais : Intermédiaire</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-oppa bg-light-section">
+            <div class="container">
+                <div class="projects-header-oppa" data-reveal>
+                    <span class="sub-title">Portfolio</span>
+                    <h2>Mes projets</h2>
+                </div>
+                <div class="projects-layout-oppa">
+                    <!-- Projet 1: Banking -->
+                    <div class="project-box" data-reveal>
+                        <div class="p-img" data-modal="modal-banking"><img src="assets/banking_v3.jpg"
+                                alt="Octroyer des crédits immobiliers">
+                        </div>
+                        <span class="project-badge">Banking</span>
+                        <div class="p-content">
+                            <div>
+                                <h3 style="font-size: 1.1rem; line-height: 1.3;">Octroi de crédits immobiliers à
+                                    partir
+                                    d'un score emprunteur (Accepté / Refusé)</h3>
+                            </div>
+                            <button class="btn-more" data-modal="modal-banking"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Projet 2: Etsy -->
+                    <div class="project-box" data-reveal>
+                        <div class="p-img" data-modal="modal-etsy"><img src="assets/etsy_morocco.jpg" alt="Etsy"></div>
+                        <span class="project-badge">E-commerce/Retail</span>
+                        <div class="p-content">
+                            <div>
+                                <h3 style="font-size: 1.1rem; line-height: 1.3;">Optimisation des
+                                    ventes des produits d'origine marocaine de Etsy</h3>
+                            </div>
+                            <button class="btn-more" data-modal="modal-etsy"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Projet 3: Relation Client -->
+                    <div class="project-box" data-reveal>
+                        <div class="p-img" data-modal="modal-relation"><img src="assets/relation_client.jpg"
+                                alt="Relation Client"></div>
+                        <div class="p-content">
+                            <div>
+                                <h3 style="font-size: 1.1rem; line-height: 1.3;">Suivi de la relation client</h3>
+                            </div>
+                            <button class="btn-more" data-modal="modal-relation"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Projet 4: Qerapp -->
+                    <div class="project-box" data-reveal>
+                        <div class="p-img" data-modal="modal-qerapp"><img src="assets/food_score_analysis.png"
+                                alt="Analyse Alimentaire"></div>
+                        <span class="project-badge">E-commerce/Retail</span>
+                        <div class="p-content">
+                            <div>
+                                <h3 style="font-size: 1.1rem; line-height: 1.3; text-align: left;">Application mobile
+                                    pour mieux choisir les produits alimentaires selon le score, la santé, les allergies
+                                </h3>
+                            </div>
+                            <button class="btn-more" data-modal="modal-qerapp"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Projet 5: ETL -->
+                    <div class="project-box" data-reveal>
+                        <div class="p-img" data-modal="modal-etl"><img src="assets/business_decisions.jpg" alt="ETL">
+                        </div>
+                        <span class="project-badge">E-commerce/Retail</span>
+                        <div class="p-content">
+                            <div>
+                                <h3 style="font-size: 1.1rem; line-height: 1.3;">Amélioration des
+                                    décisions commerciales</h3>
+                            </div>
+                            <button class="btn-more" data-modal="modal-etl"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="contact" class="cta-oppa">
+            <div class="container">
+                <div class="cta-card">
+                    <div class="cta-text" data-reveal>
+                        <h2>Un projet en tête ?</h2>
+                        <p>Parlons de vos données et voyons comment je peux vous aider à atteindre vos objectifs
+                            business avec des solutions sur mesure.</p>
+                        <div class="cta-btns">
+                            <a href="mailto:idrissatraore0911@gmail.com" class="btn-primary">Envoyez-moi un email</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Modals -->
+        <div id="modal-banking" class="project-modal">
+            <div class="modal-content">
+                <button class="modal-close"><i class="fa-solid fa-xmark"></i></button>
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <img src="assets/banking_v3.jpg" alt="Projet Crédit Immobilier">
+                    </div>
+                    <div class="modal-details">
+                        <span class="modal-badge">Banking</span>
+                        <h2>Octroyer des crédits immobiliers à partir d'un score emprunteur</h2>
+                        <p class="modal-description">
+                            Développement d'un système d'aide à la décision basé sur l'analyse de données permettant
+                            d'automatiser
+                            l'octroi de crédits immobiliers en fonction d'un score emprunteur calculé.
+                        </p>
+                        <div class="modal-technologies">
+                            <h3>Technologies utilisées</h3>
+                            <div class="tech-tags">
+                                <span>Power BI</span>
+                            </div>
+                            <div class="modal-btns">
+                                <a href="assets/Pilotage du crédit immobilier.pdf" target="_blank"
+                                    class="modal-btn btn-secondary">
+                                    <i class="fa-solid fa-file-pdf"></i> Descriptif détaillé ( PDF )
+                                </a>
+                                <a href="https://app.powerbi.com/groups/me/reports/9702df7d-b7ab-47f5-bb8b-c72607b1af75/4d1c0c1e0c763ac07278?experience=power-bi&clientSideAuth=0"
+                                    target="_blank" class="modal-btn">
+                                    Lien du projet <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal-etsy" class="project-modal">
+            <div class="modal-content">
+                <button class="modal-close"><i class="fa-solid fa-xmark"></i></button>
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <img src="assets/etsy_morocco.jpg" alt="Optimisation Etsy">
+                    </div>
+                    <div class="modal-details">
+                        <span class="modal-badge">E-commerce/Retail</span>
+                        <h2>Optimisation des ventes des produits marocains sur Etsy</h2>
+                        <p class="modal-description">
+                            Analyse approfondie des données de vente pour identifier les tendances de marché des
+                            produits d'origine marocaine sur Etsy, permettant d'optimiser le positionnement et
+                            d'augmenter les conversions.
+                        </p>
+                        <div class="modal-technologies">
+                            <h3>Technologies utilisées</h3>
+                            <div class="tech-tags">
+                                <span>Power BI</span>
+                                <span>Data Analysis</span>
+                                <span>Market Insights</span>
+                            </div>
+                        </div>
+                        <div class="modal-btns">
+                            <a href="assets/projet_etsy.pdf" target="_blank" class="modal-btn btn-secondary">
+                                <i class="fa-solid fa-file-pdf"></i> Résumé du projet ( PDF )
+                            </a>
+                            <a href="https://app.powerbi.com/groups/me/reports/ec7c4eb8-818f-45e4-830e-f26da2eb689c/ReportSectionca47534b273c971e5d1f?experience=power-bi&clientSideAuth=0"
+                                target="_blank" class="modal-btn">
+                                Lien du projet <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal-relation" class="project-modal">
+            <div class="modal-content">
+                <button class="modal-close"><i class="fa-solid fa-xmark"></i></button>
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <img src="assets/relation_client.jpg" alt="Relation Client">
+                    </div>
+                    <div class="modal-details">
+                        <span class="modal-badge">Relation Client</span>
+                        <h2>Suivi de la relation client</h2>
+                        <p class="modal-description">
+                            Conception d'un outil de suivi de la relation client pour mesurer la satisfaction,
+                            fidéliser
+                            les utilisateurs et détecter les leviers d'amélioration du service.
+                        </p>
+                        <div class="modal-technologies">
+                            <h3>Technologies utilisées</h3>
+                            <div class="tech-tags">
+                                <span>Power BI</span>
+                                <span>CRM Data</span>
+                                <span>Customer Analytics</span>
+                            </div>
+                        </div>
+
+                        <div class="modal-btns">
+                            <a href="assets/relation_client.pdf" target="_blank" class="modal-btn btn-secondary">
+                                <i class="fa-solid fa-file-pdf"></i> Résumé du projet ( PDF )
+                            </a>
+                            <a href="https://app.powerbi.com/groups/me/reports/5ef868c6-82ac-45dc-8c24-14a5e17f3ede/ReportSection?experience=power-bi&clientSideAuth=0"
+                                target="_blank" class="modal-btn">
+                                Lien du projet <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal-qerapp" class="project-modal">
+            <div class="modal-content">
+                <button class="modal-close"><i class="fa-solid fa-xmark"></i></button>
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <img src="assets/food_score_analysis.png" alt="Qerapp">
+                    </div>
+                    <div class="modal-details">
+                        <span class="modal-badge">E-commerce/Retail</span>
+                        <h2>Application Mobile pour le Choix Alimentaire</h2>
+                        <p class="modal-description">
+                            Solution innovante pour aider les consommateurs à choisir des produits alimentaires
+                            selon
+                            des critères de santé, scores nutritionnels et allergies.
+                        </p>
+                        <div class="modal-technologies">
+                            <h3>Technologies utilisées</h3>
+                            <div class="tech-tags">
+                                <span>Python</span>
+                                <span>ETL</span>
+                                <span>MongoDB</span>
+                                <span>Github Actions</span>
+                            </div>
+                        </div>
+                        <div class="modal-btns">
+                            <a href="assets/qerapp-documentation.pdf" target="_blank" class="modal-btn btn-secondary">
+                                <i class="fa-solid fa-file-pdf"></i> Résumé du projet ( PDF )
+                            </a>
+                            <a href="https://www.qerapp.com/" target="_blank" class="modal-btn">
+                                Lien du projet <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal-etl" class="project-modal">
+            <div class="modal-content">
+                <button class="modal-close"><i class="fa-solid fa-xmark"></i></button>
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <img src="assets/business_decisions.jpg" alt="ETL Pipeline">
+                    </div>
+                    <div class="modal-details">
+                        <span class="modal-badge">E-commerce/Retail</span>
+                        <h2>Amélioration des décisions commerciales</h2>
+                        <p class="modal-description">
+                            Mise en place d'un pipeline ETL pour automatiser le traitement des données et
+                            fournir des
+                            bases solides à la prise de décision stratégique en entreprise.
+                        </p>
+                        <div class="modal-technologies">
+                            <h3>Technologies utilisées</h3>
+                            <div class="tech-tags">
+                                <span>Python</span>
+                                <span>ETL</span>
+                                <span>Snowflake</span>
+                                <span>Airflow</span>
+                                <span>Automatisation</span>
+                                <span>SQL</span>
+                            </div>
+                        </div>
+                        <div class="modal-btns">
+                            <a href="assets/etl_amazon_sales.pdf" target="_blank" class="modal-btn btn-secondary">
+                                <i class="fa-solid fa-file-pdf"></i> Résumé du projet ( PDF )
+                            </a>
+                            <a href="https://github.com/idrissa77/ecommerce-sales-etl-pipeline" target="_blank"
+                                class="modal-btn">
+                                Lien du projet <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+    </main>
+
+    <footer class="footer-oppa">
+        <div class="container">
+            <!-- Footer content removed -->
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

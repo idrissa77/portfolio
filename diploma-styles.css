@@ -1,0 +1,67 @@
+/* Diplomas Section Styles */
+.diplomas-section {
+    margin: 3rem 0 2rem 0;
+}
+
+.section-subtitle {
+    font-size: 1.8rem;
+    font-family: var(--font-heading);
+    color: var(--text-main);
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.diplomas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.diploma-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    transition: var(--transition);
+}
+
+.diploma-card:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: var(--primary);
+    transform: translateY(-5px);
+}
+
+.diploma-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, var(--primary), var(--primary-light));
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: white;
+    flex-shrink: 0;
+}
+
+.diploma-content h4 {
+    font-size: 1.2rem;
+    color: var(--text-main);
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.diploma-school {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin-bottom: 0.3rem;
+}
+
+.diploma-year {
+    color: var(--primary);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
